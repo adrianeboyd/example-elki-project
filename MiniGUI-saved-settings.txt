@@ -1,0 +1,17 @@
+#Saved ELKI settings. First line is title, remaining lines are parameters.
+[Saved Settings]
+de.lmu.ifi.dbs.elki.application.KDDCLIApplication
+-dbc.in
+/store/adriane/research/tools/example-elki-project/derewo-5000.txt
+-dbc.parser
+StringParser
+-algorithm
+clustering.affinitypropagation.AffinityPropagationClusteringAlgorithm
+-ap.distance
+tutorial.distancefunction.WordDistanceFunction
+-resulthandler
+ResultWriter
+-out
+/store/adriane/research/tools/example-elki-project/temp-out/temp22
+-out.silentoverwrite
+
